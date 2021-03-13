@@ -94,6 +94,7 @@
   <ItemGroup>
     <Content Include="ContactUs.html" />
     <Content Include="CSS\EStoreAutumn.css" />
+    <Content Include="Customers.html" />
     <Content Include="home.html" />
     <Content Include="Images\golfClub.jpg" />
     <Content Include="Images\tennisRacket.jpg" />
