@@ -95,6 +95,10 @@
     <Content Include="Adder1.html" />
     <Content Include="JQActions1.html" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
+    <Content Include="JQCalculator1.html" />
+    <Content Include="JQMouseMove1.html" />
+    <Content Include="JQSelectors1.html" />
+    <Content Include="JSONTest1.html" />
     <Content Include="Scripts\jquery-3.5.1.js" />
     <Content Include="Scripts\jquery-3.5.1.min.js" />
     <Content Include="Scripts\jquery-3.5.1.slim.js" />
