@@ -1,11 +1,11 @@
-﻿using StudentWinApp.DataLayer;
+﻿using StudentWinApp2.DataLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentWinApp.BusinessLayer
+namespace StudentWinApp2.BusinessLayer
 {
     class BusinessStudents
     {

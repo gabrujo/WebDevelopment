@@ -46,32 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1 - Copy %282%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1 - Copy %282%29.Designer.cs">
-      <DependentUpon>Form1 - Copy %282%29.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1 - Copy %283%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1 - Copy %283%29.Designer.cs">
-      <DependentUpon>Form1 - Copy %283%29.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1 - Copy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1 - Copy.Designer.cs">
-      <DependentUpon>Form1 - Copy.cs</DependentUpon>
-    </Compile>
+    <Compile Include="BusinessLayer\BusinessCourses.cs" />
+    <Compile Include="BusinessLayer\BusinessStudents.cs" />
+    <Compile Include="DataLayer\DataAccess.cs" />
+    <Compile Include="DataLayer\DBHelper.cs" />
+    <Compile Include="DataLayer\DBList.cs" />
+    <Compile Include="DataLayer\IEntity.cs" />
+    <Compile Include="DataLayer\RepositoryCourses.cs" />
+    <Compile Include="DataLayer\RepositoryStudents.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCourseEnrollment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCourseEnrollment.Designer.cs" />
+    <Compile Include="FormCoursesOffered.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCoursesOffered.Designer.cs" />
+    <Compile Include="FormRegisterForCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegisterForCourse.Designer.cs" />
+    <Compile Include="Models\CourseEnrollmentVM.cs" />
+    <Compile Include="Models\CourseOfferedVM.cs" />
+    <Compile Include="Models\MyEntityBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx" />
+    <EmbeddedResource Include="FormCourseEnrollment.resx" />
+    <EmbeddedResource Include="FormCoursesOffered.resx" />
+    <EmbeddedResource Include="FormRegisterForCourse.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -94,10 +103,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BusinessLayer\" />
-    <Folder Include="DataLayer\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

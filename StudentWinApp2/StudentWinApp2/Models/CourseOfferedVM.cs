@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentWinApp.Models
+namespace StudentWinApp2.Models
 {
     class CourseOfferedVM
     {

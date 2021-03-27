@@ -1,0 +1,8 @@
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.csprojAssemblyReference.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.Form1.resources
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.FormCourseEnrollment.resources
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.FormCoursesOffered.resources
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.FormRegisterForCourse.resources
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.Properties.Resources.resources
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.csproj.GenerateResource.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.csproj.CoreCompileInputs.cache

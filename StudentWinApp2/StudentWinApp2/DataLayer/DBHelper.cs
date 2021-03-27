@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentWinApp.DataLayer
+namespace StudentWinApp2.DataLayer
 {
     class DBHelper
     {

@@ -1,4 +1,4 @@
-﻿using StudentWinApp.Models;
+﻿using StudentWinApp2.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentWinApp.DataLayer
+namespace StudentWinApp2.DataLayer
 {
     class RepositoryCourses  // purpose of repository is to serve data
     {     // if data is being obtained from a Database Server, then the repository

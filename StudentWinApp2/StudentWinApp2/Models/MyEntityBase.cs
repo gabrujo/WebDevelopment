@@ -1,4 +1,4 @@
-﻿using StudentWinApp.DataLayer;
+﻿using StudentWinApp2.DataLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Reflection;
 
-namespace StudentWinApp.Models
+namespace StudentWinApp2.Models
 {
     class MyEntityBase : IEntity
     {
