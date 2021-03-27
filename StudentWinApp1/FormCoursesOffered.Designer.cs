@@ -1,4 +1,4 @@
-namespace StudentWinApp
+﻿namespace StudentWinApp
 {
     partial class FormCoursesOffered
     {
