@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BusinessLayer"
+    "\\BusinessLayer",
+    "\\DataLayer",
+    "\\Models",
+    "\\obj"
   ],
-  "SelectedNode": "\\BusinessLayer\\BusinessCourses.cs",
   "PreviewInSolutionExplorer": false
 }
