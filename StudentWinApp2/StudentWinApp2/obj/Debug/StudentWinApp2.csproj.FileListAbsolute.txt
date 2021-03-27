@@ -6,3 +6,8 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\S
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.Properties.Resources.resources
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.csproj.GenerateResource.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.csproj.CoreCompileInputs.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\bin\Debug\StudentWinApp2.exe.config
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\bin\Debug\StudentWinApp2.exe
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\bin\Debug\StudentWinApp2.pdb
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.exe
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StudentWinApp2\StudentWinApp2\obj\Debug\StudentWinApp2.pdb
