@@ -31,16 +31,17 @@ namespace StateManagement.Pages
                           select p).FirstOrDefault();
             if (pr != null)
             {
-                SessionFacade.PROD = pr;
+                //SessionFacade.PROD = pr;
+                CookieFacade.PROD = pr;
                 Message = pr.ProductName + " set on sale";
             }
         }
         public IActionResult OnPostClearSession()
         {
             //HttpContextHelper.HttpCtx.Session.Clear(); // via our helper class
-            HttpContext.Session.Clear(); // HttpContext is available to every page by default
-           
-        Message = "";
+            //HttpContext.Session.Clear(); // HttpContext is available to every page by default
+            CookieFacade.PROD = null;
+            Message = "";
             return RedirectToPage();
         }
     }
