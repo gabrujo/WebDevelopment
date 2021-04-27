@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YC8EVIhoGcKAe2a6gKJAOUvMwnkoqM7/nKE6VS6BRdEZmwWZVGOtY8wK2+e57rwtJsG/0ofQbTZPZOTz79MOfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabru\\OneDrive\\Área de Trabalho\\Coding\\WebDevelopment\\StateManagement\\StateManagement\\StateManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabru\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
