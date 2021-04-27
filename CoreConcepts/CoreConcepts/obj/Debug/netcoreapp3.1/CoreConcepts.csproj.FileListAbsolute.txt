@@ -40,3 +40,5 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\CoreConcepts\Cor
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\CoreConcepts\CoreConcepts\obj\Debug\netcoreapp3.1\staticwebassets\CoreConcepts.StaticWebAssets.xml
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\CoreConcepts\CoreConcepts\obj\Debug\netcoreapp3.1\CoreConcepts.genruntimeconfig.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\CoreConcepts\CoreConcepts\obj\Debug\netcoreapp3.1\CoreConcepts.csproj.CopyComplete
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\CoreConcepts\CoreConcepts\obj\Debug\netcoreapp3.1\Razor\Pages\MultiForms.cshtml.g.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\CoreConcepts\CoreConcepts\obj\Debug\netcoreapp3.1\Razor\Pages\ShowCustomerInfo.cshtml.g.cs
