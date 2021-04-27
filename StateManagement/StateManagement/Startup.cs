@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using StateManagement.Services;
 using StateManagement.Utils;
 
 namespace StateManagement
@@ -25,6 +26,7 @@ namespace StateManagement
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            IServiceCollection serviceCollections = services.AddSingleton<IProducts, ProductRepository>();
             services.AddRazorPages();
             //-----session setup--------------------
             services.AddDistributedMemoryCache(); // for session storage

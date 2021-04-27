@@ -37,3 +37,4 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\StateManagement.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\StateManagement.pdb
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\StateManagement.genruntimeconfig.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\Razor\Pages\SetProductOnSale.cshtml.g.cs
