@@ -19,8 +19,15 @@ using CoreConcepts;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\CoreConcepts\CoreConcepts\Pages\_ViewImports.cshtml"
+using System.Text;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8f1bdddd052a94a3b1c258e2574d05d793b9f1fe", @"/Pages/SimpleReceiveForm.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fdd0be5830c4ea806704954ab6aaae9891fb6eda", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7da6d87fce9d77df3bdbfa113ddf9dedda6eb4bc", @"/Pages/_ViewImports.cshtml")]
     public class Pages_SimpleReceiveForm : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998
