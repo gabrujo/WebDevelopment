@@ -52,7 +52,7 @@ namespace CoreConcepts
                 endpoints.MapRazorPages();
             });
         }
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServicess(IServiceCollection services)
         {
             //services.AddRazorPages();
             services.AddRazorPages().AddRazorOptions(options =>

@@ -1,8 +1,4 @@
-﻿@page
-@model CoreConcepts.Pages.Models.MyPartials.ShowCustomerInfoModel
-@{
-
-    public class ShowCustomerInfoModel : PageModel
+﻿    public class ShowCustomerInfoModel : PageModel
     {
         public CustomerInfo CInfo { get; set; }
         public void OnGet()
@@ -20,5 +16,3 @@
             CInfo.STList.Add(s2);
         }
     }
-
-}
