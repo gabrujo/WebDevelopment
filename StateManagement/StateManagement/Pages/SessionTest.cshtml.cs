@@ -15,7 +15,8 @@ namespace StateManagement.Pages
         public void OnGet()
         {
             Student s1 = new Student { FirstName = "Bill", LastName = "Baker", Id = 1234 };
-            HttpContext.Session.Set<Student>("studentinfokey", s1);
+            //HttpContext.Session.Set<Student>("studentinfokey", s1);
+            SessionFacade.STU = s1;
             Message = "Student data stored successfully in session";
         }
     }

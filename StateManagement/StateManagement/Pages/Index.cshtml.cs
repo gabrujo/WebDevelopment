@@ -20,7 +20,8 @@ namespace StateManagement.Pages
         }
         public void OnGet()
         {
-            Stu = HttpContext.Session.Get<Student>("studentinfokey");
+            //Stu = HttpContext.Session.Get<Student>("studentinfokey");
+            Stu = SessionFacade.STU;
         }
     }
 }
