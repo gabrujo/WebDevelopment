@@ -7,9 +7,10 @@
 <form method="post">
     <button class="btn-warning" asp-route-idd="5" asp-pagehandler="UpdateInfo">Update Info</button>
     <button class="btn-success" asp-page-handler="FindInfo">Find Info</button>
+    <input name="txtT1" />
 </form>
 <div id="d1">
-    @Model.Message
+  
 </div>
 The code in the associated MultiForms2.cshtml.cs appears as:
  public class MultiForms2Model : PageModel
