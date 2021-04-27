@@ -1,0 +1,36 @@
+﻿@page
+@model CoreConcepts.Pages.MultiForms2Model
+@{
+    ViewData["Title"] = "MultiForm2";
+}
+<h1>MultiForm2</h1>
+<form method="post">
+    <button class="btn-warning" asp-route-idd="5" asp-pagehandler="UpdateInfo">Update Info</button>
+    <button class="btn-success" asp-page-handler="FindInfo">Find Info</button>
+</form>
+<div id="d1">
+    @Model.Message
+</div>
+The code in the associated MultiForms2.cshtml.cs appears as:
+ public class MultiForms2Model : PageModel
+ {
+ public string Message { get; set; }
+ public void OnGet()
+ {
+ }
+ public async Task<IActionResult>
+    OnPostUpdateInfoAsync(int idd)
+    {
+    await Task.Delay(1); // to satisfy async
+    Message = "UpdateInfo received with idd=" + idd;
+    return Page();
+    }
+    public async Task<IActionResult>
+        OnPostFindInfoAsync()
+        {
+        Message = "Info request received..";
+        await Task.Delay(1); // to satisfy async
+        //return RedirectToPage(); // does new request
+        return Page();
+        }
+        }
