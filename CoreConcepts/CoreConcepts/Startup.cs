@@ -59,6 +59,9 @@ namespace CoreConcepts
             {
                 options.PageViewLocationFormats.Add("/Pages/MyPartials/{0}.cshtml");
             });
+
+            services.AddSingleton<Pages.Services.IStocks, Pages.Services.StockPrices>(); // added by AM
+            services.AddRazorPages();
         }
 
     }
