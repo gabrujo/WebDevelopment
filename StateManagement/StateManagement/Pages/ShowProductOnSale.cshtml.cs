@@ -14,7 +14,8 @@ namespace StateManagement.Pages
         public Product Prod { get; set; }
         public void OnGet()
         {
-            Prod = SessionFacade.PROD;
+            //Prod = SessionFacade.PROD;
+            Prod = CookieFacade.PROD;
         }
     }
 }
