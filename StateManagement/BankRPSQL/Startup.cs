@@ -28,11 +28,13 @@ namespace BankRPSQL
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            options.UseSqlServer(
+            Configuration.GetConnectionString("MYBANK")));
+            services.AddDefaultIdentity<IdentityUser>(options =>
+           options.SignIn.RequireConfirmedAccount = true)
+            .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
+            ConnectionStringHelper.CONNSTR = Configuration.GetConnectionString("MYBANK");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

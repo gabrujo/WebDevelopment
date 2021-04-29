@@ -7,5 +7,7 @@ namespace BankRPSQL
 {
     public class ConnectionStringHelper
     {
+        public static string CONNSTR = "";
     }
+
 }
