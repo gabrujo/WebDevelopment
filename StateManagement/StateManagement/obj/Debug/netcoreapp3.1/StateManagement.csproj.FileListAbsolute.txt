@@ -21,8 +21,6 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\staticwebassets\StateManagement.StaticWebAssets.Manifest.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\staticwebassets\StateManagement.StaticWebAssets.xml
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\StateManagement.csprojAssemblyReference.cache
-C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\StateManagement.csproj.CoreCompileInputs.cache
-C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\StateManagement.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\bin\Debug\netcoreapp3.1\StateManagement.deps.json
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\bin\Debug\netcoreapp3.1\StateManagement.runtimeconfig.json
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\bin\Debug\netcoreapp3.1\StateManagement.runtimeconfig.dev.json
@@ -43,3 +41,11 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\Razor\Pages\WizStep2.cshtml.g.cs
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\Razor\Pages\Confirm.cshtml.g.cs
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\Razor\Pages\WizStep3.cshtml.g.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\StateManagement.csproj.CoreCompileInputs.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StateManagement\StateManagement\obj\Debug\netcoreapp3.1\StateManagement.MvcApplicationPartsAssemblyInfo.cache
