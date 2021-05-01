@@ -14,6 +14,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Data.SqlClient;
 using BankRPSQL.ServicesBusiness;
+using BankRPSQL.Utils;
+using Microsoft.AspNetCore.Http;
 
 namespace BankRPSQL
 {
@@ -38,12 +40,22 @@ namespace BankRPSQL
             services.AddRazorPages();
             ConnectionStringHelper.CONNSTR = Configuration.GetConnectionString("MYBANK");
             services.AddSingleton<IBusinessBanking, BusinessBanking>();
+            //-----session setup--------------------
+            services.AddDistributedMemoryCache(); // for session storage
+            services.AddSession(opts =>
+            {
+                opts.Cookie.Name = ".AMSite.SessionID";
+                opts.IdleTimeout = TimeSpan.FromMinutes(5); // 5 minute session timeout
+            });
+            //--------------------------------------
+            services.AddHttpContextAccessor();
         }
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -68,6 +80,12 @@ namespace BankRPSQL
             {
                 endpoints.MapRazorPages();
             });
+
+            app.UseSession();
+
+            HttpContextHelper.Configure(app.ApplicationServices.GetRequiredService < IHttpContextAccessor > ());
+            app.UseHttpsRedirection();
+
         }
     }
 

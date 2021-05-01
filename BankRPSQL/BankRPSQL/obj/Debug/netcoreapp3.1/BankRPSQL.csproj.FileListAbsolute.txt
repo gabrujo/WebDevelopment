@@ -206,3 +206,4 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPSQL\BankRP
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPSQL\BankRPSQL\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPSQL\BankRPSQL\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPSQL\BankRPSQL\obj\Debug\netcoreapp3.1\Razor\Pages\ShowBalances.cshtml.g.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPSQL\BankRPSQL\obj\Debug\netcoreapp3.1\Razor\Pages\XfetCtoS.cshtml.g.cs
