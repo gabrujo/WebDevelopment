@@ -12,5 +12,30 @@ namespace BankRPSQL.Models.ViewModels
             get;
             set;
         }
+        public string TransactionDate
+        {
+            get;
+            set;
+        }
+        public string CheckingAccountNumber
+        {
+            get;
+            set;
+        }
+        public string SavingAccountNumber
+        {
+            get;
+            set;
+        }
+        public string Amount
+        {
+            get;
+            set;
+        }
+        public string TransactionFee
+        {
+            get;
+            set;
+        }
     }
 }
