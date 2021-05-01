@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Data.SqlClient;
+using BankRPSQL.ServicesBusiness;
 
 namespace BankRPSQL
 {
@@ -36,6 +37,7 @@ namespace BankRPSQL
             .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
             ConnectionStringHelper.CONNSTR = Configuration.GetConnectionString("MYBANK");
+            services.AddSingleton<IBusinessBanking, BusinessBanking>();
         }
 
 
