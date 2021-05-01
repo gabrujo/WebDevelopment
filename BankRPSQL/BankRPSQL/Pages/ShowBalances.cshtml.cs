@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BankRPSQL.Models;
 using BankRPSQL.ServicesBusiness;
+using BankRPSQL.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -17,11 +19,20 @@ namespace BankRPSQL.Pages
         }
         public decimal CheckingBalance { get; set; }
         public decimal SavingBalance { get; set; }
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            CheckingBalance = _ibusbank.GetCheckingBalance(10000);
-            SavingBalance = _ibusbank.GetSavingBalance(100000);
+            if (SessionFacade.USERINFO == null) // not logged in
+                return RedirectToPage("/Account/Login", new { area = "Identity" });
+            else
+            {
+                UserInfo uinfo = SessionFacade.USERINFO;
+                CheckingBalance =
+               _ibusbank.GetCheckingBalance(uinfo.CheckingAccountNumber);
+                SavingBalance = _ibusbank.GetSavingBalance(uinfo.SavingAccountNumber);
+            }
+            return Page();
         }
+
     }
 
 }
