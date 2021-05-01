@@ -49,6 +49,7 @@ namespace BankRPSQL
             });
             //--------------------------------------
             services.AddHttpContextAccessor();
+            services.AddSingleton<IBusinessAuthentication, BusinessAuthentication>();
         }
 
 
