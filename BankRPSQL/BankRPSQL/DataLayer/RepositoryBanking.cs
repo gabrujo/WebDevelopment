@@ -5,11 +5,12 @@ using System.Data.Common;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
+using BankRPSQL.Models;
 using BankRPSQL.Models.ViewModels;
 
 namespace BankRPSQL.DataLayer
 {
-    public class Repository : IRepositoryBanking
+    public class Repository : IRepositoryBanking, IRepositoryAuthentication
     {
         // Repository needs to communicate with DataAcess sublayer
         // We should use loose coupling so that we can can
@@ -288,6 +289,43 @@ namespace BankRPSQL.DataLayer
         {
             throw new NotImplementedException();
         }
+
+        public UserInfo GetUserInfo(string username)
+        {
+            UserInfo uinfo = new UserInfo();
+            try
+            {
+                string sql1 = "select CheckingAccountNumber from CheckingAccounts " +
+                "where Username=@Username";
+                List<DbParameter> ParamList1 = new List<DbParameter>();
+                SqlParameter p1 = new SqlParameter("@Username", SqlDbType.VarChar, 50);
+                p1.Value = username;
+                ParamList1.Add(p1);
+                object obj1 = _idac.GetSingleAnswer(sql1, ParamList1);
+                if (obj1 != null)
+                {
+                    uinfo.CheckingAccountNumber = long.Parse(obj1.ToString());
+                    string sql2 = "select SavingAccountNumber from SavingAccounts " +
+                    "where Username=@Username";
+                    List<DbParameter> ParamList2 = new List<DbParameter>();
+                    SqlParameter p1a = new SqlParameter("@Username", SqlDbType.VarChar,
+                   50);
+                    p1a.Value = username;
+                    ParamList2.Add(p1a);
+                    object obja = _idac.GetSingleAnswer(sql2, ParamList2);
+                    if (obja != null)
+                        uinfo.SavingAccountNumber = long.Parse(obja.ToString());
+                }
+                else
+                    return null;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return uinfo;
+        }
+
     }
 
 }
