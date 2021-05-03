@@ -1,5 +1,5 @@
 ﻿using System;
-using BankRPEF.Data;
+using BankRPSQL.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -7,8 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-[assembly: HostingStartup(typeof(BankRPEF.Areas.Identity.IdentityHostingStartup))]
-namespace BankRPEF.Areas.Identity
+[assembly: HostingStartup(typeof(BankRPSQL.Areas.Identity.IdentityHostingStartup))]
+namespace BankRPSQL.Areas.Identity
 {
     public class IdentityHostingStartup : IHostingStartup
     {
