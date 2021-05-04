@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BankRPEF.Cache;
 using BankRPEF.Models;
 using BankRPEF.Models.ViewModels;
+using BankRPEF.Utils;
 using BankRPSQL.DataLayer;
 
 namespace BankRPEF.DataLayer
@@ -75,27 +77,40 @@ namespace BankRPEF.DataLayer
         {
             try
             {
-                var res = (from rec in _dbContext.TransactionHistories
-                           join trtype in _dbContext.TransactionTypes on
-                          rec.TransactionTypeId equals
-                           trtype.TransactionTypeId
-                           where rec.CheckingAccountNumber == checkingAccountNum
-                           select new TransactionHistoryVM
-                           {
-                               CheckingAccountNumber = rec.CheckingAccountNumber,
-                               SavingAccountNumber = rec.SavingAccountNumber,
-                               Amount = rec.Amount,
-                               TransactionFee = rec.TransactionFee,
-                               TransactionTypeName = trtype.TransactionTypeName,
-                               TransactionDate = rec.TransactionDate
-                           }).ToList<TransactionHistoryVM>();
-                return res;
+                // check if it exists in cache, if so retrieve it from there
+                List<TransactionHistoryVM> THist = null;
+                string checkAcctNum =
+               SessionFacade.USERINFO.CheckingAccountNumber.ToString();
+                THist =
+               CacheAbstractionHelper.CABS.Retrieve<List<TransactionHistoryVM>>("TRHISTORY_" + checkAcctNum);
+                if (THist == null)
+                { // obtain it from DB
+                    var res = (from rec in _dbContext.TransactionHistories
+                               join trtype in _dbContext.TransactionTypes on
+                              rec.TransactionTypeId equals
+                               trtype.TransactionTypeId
+                               where rec.CheckingAccountNumber == checkingAccountNum
+                               select new TransactionHistoryVM
+                               {
+                                   CheckingAccountNumber = rec.CheckingAccountNumber,
+                                   SavingAccountNumber = rec.SavingAccountNumber,
+                                   Amount = rec.Amount,
+                                   TransactionFee = rec.TransactionFee,
+                                   TransactionTypeName = trtype.TransactionTypeName,
+                                   TransactionDate = rec.TransactionDate
+                               }).ToList<TransactionHistoryVM>();
+                    THist = res;
+                    CacheAbstractionHelper.CABS.Insert("TRHISTORY_" + checkAcctNum,
+                    THist);
+                }
+                return THist;
             }
             catch (Exception)
             {
                 throw;
             }
         }
+
         public bool TransferCheckingToSaving(long checkingAccountNum, long
        savingAccountNum, decimal amount, decimal transactionFee)
         {
