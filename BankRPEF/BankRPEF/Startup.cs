@@ -17,6 +17,7 @@ using Microsoft.AspNetCore.Http;
 using BankRPEF.Cache;
 using BankRPEF.ServicesBusiness;
 using BankRPSQL.ServicesBusiness;
+using Microsoft.Extensions.Caching.Distributed;
 
 namespace BankRPEF
 {
@@ -70,6 +71,9 @@ namespace BankRPEF
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            
+            RedisCacheHelper.IDISTCACHE = redisService;
             // obtain the CacheAbstraction service and store a reference
             // to it in the CacheAbstractionHelper.CABS so that
             // Repository or some other class can access it
@@ -105,6 +109,8 @@ namespace BankRPEF
             {
                 endpoints.MapRazorPages();
             });
+
+            var redisService = (IDistributedCache)appServices.GetRequiredService(typeof(IDistributedCache));
         }
     }
 }
