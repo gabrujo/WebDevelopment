@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace BankRPEF.Cache
 {
     using Couchbase;
-    using Couchbase.Configuration.Client;
-    using Couchbase.Configuration.Server.Providers;
-    using Couchbase.Core;
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
     namespace BankRPEF.Cache
     {
         public class CouchBaseCacheAdapter : IWebCache

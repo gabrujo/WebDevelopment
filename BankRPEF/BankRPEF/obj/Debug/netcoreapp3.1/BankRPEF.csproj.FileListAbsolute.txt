@@ -207,3 +207,6 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPEF\BankRPE
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPEF\BankRPEF\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPEF\BankRPEF\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPEF\BankRPEF\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPEF\BankRPEF\obj\Debug\netcoreapp3.1\BankRPEF.csproj.CoreCompileInputs.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPEF\BankRPEF\obj\Debug\netcoreapp3.1\BankRPEF.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\BankRPEF\BankRPEF\obj\Debug\netcoreapp3.1\BankRPEF.MvcApplicationPartsAssemblyInfo.cache
