@@ -28,12 +28,25 @@ namespace BankRPEF
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(
-            Configuration.GetConnectionString("MYBANK")));
+             options.UseSqlServer(
+             Configuration.GetConnectionString("MYBANK")));
             services.AddDefaultIdentity<IdentityUser>(options =>
            options.SignIn.RequireConfirmedAccount = true)
             .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
+            services.AddDistributedMemoryCache(); // for session storage
+            services.AddSession(opts =>
+            {
+                opts.Cookie.Name = ".AMSite.SessionID";
+                opts.IdleTimeout = TimeSpan.FromMinutes(5); // 5 minute session timeout
+            });
+            //--------------------------------------
+            services.AddHttpContextAccessor();
+            services.AddDbContext<Models.MYBANKContext>(options =>
+            options.UseSqlServer(
+            Configuration.GetConnectionString("MYBANK")));
+            services.AddScoped<IBusinessBanking, BusinessBanking>();
+            services.AddScoped<IBusinessAuthentication, BusinessAuthentication>();
         }
 
 
