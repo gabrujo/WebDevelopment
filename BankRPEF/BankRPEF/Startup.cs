@@ -14,6 +14,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BankRPEF.Utils;
 using Microsoft.AspNetCore.Http;
+using BankRPEF.Cache;
+using BankRPEF.ServicesBusiness;
+using BankRPSQL.ServicesBusiness;
 
 namespace BankRPEF
 {
@@ -49,12 +52,21 @@ namespace BankRPEF
             Configuration.GetConnectionString("MYBANK")));
             services.AddScoped<IBusinessBanking, BusinessBanking>();
             services.AddScoped<IBusinessAuthentication, BusinessAuthentication>();
+            services.AddSingleton<CacheAbstraction>();
+
         }
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // obtain the CacheAbstraction service and store a reference
+            // to it in the CacheAbstractionHelper.CABS so that
+            // Repository or some other class can access it
+            var appServices = app.ApplicationServices;
+            var cacheService = appServices.GetRequiredService<CacheAbstraction>();
+            CacheAbstractionHelper.CABS = cacheService;
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
