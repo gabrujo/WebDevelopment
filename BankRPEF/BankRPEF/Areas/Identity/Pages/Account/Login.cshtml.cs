@@ -11,6 +11,9 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using BankRPSQL.ServicesBusiness;
+using BankRPEF.Models;
+using BankRPEF.Utils;
 
 namespace BankRPEF.Areas.Identity.Pages.Account
 {
@@ -20,14 +23,18 @@ namespace BankRPEF.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private readonly IEmailSender _emailSender;
+        BusinessAuthentication _ibusauth = null;
 
         public LoginModel(SignInManager<IdentityUser> signInManager, 
             ILogger<LoginModel> logger,
-            UserManager<IdentityUser> userManager)
+            UserManager<IdentityUser> userManager, IEmailSender emailSender, IBusinessAuthentication ibusauth)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _emailSender = emailSender;
             _logger = logger;
+            _ibusauth = ibusauth;
         }
 
         [BindProperty]
@@ -82,7 +89,10 @@ namespace BankRPEF.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User logged in.");
+                    string username = Input.Email; // store it in session or cookie
+                    UserInfo uinfo = _ibusauth.GetUserInfo(username);
+                    if (uinfo != null) // login successful
+                        SessionFacade.USERINFO = uinfo;
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
