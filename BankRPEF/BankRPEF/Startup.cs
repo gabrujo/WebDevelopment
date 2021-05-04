@@ -12,6 +12,8 @@ using BankRPEF.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using BankRPEF.Utils;
+using Microsoft.AspNetCore.Http;
 
 namespace BankRPEF
 {
@@ -64,6 +66,10 @@ namespace BankRPEF
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseSession();
+
+            HttpContextHelper.Configure(app.ApplicationServices.GetRequiredService < IHttpContextAccessor > ());
+
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
