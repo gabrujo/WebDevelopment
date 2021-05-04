@@ -14,10 +14,10 @@ namespace BankRPEF.Pages
     public class XferCToSModel : PageModel
     {
         IBusinessBanking _ibusbank = null;
-        public XferCToSModel(IBusinessBanking ibusbank)
+      /*  public XferCToSModel(IBusinessBanking ibusbank)
         {
             _ibusbank = ibusbank;
-        }
+        }*/
         public decimal CheckingBalance { get; set; }
         public decimal SavingBalance { get; set; }
         [BindProperty]
