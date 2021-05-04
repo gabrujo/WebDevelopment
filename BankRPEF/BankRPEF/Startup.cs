@@ -54,6 +54,16 @@ namespace BankRPEF
             services.AddScoped<IBusinessAuthentication, BusinessAuthentication>();
             services.AddSingleton<CacheAbstraction>();
 
+            services.AddDistributedMemoryCache();
+            // Redis also implements the IDistributedCache so code for
+            // storing and retrieving from Redis is same as the SQL Server cache
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = "localhost";
+                options.InstanceName = "SampleInstance";
+            });
+
+
         }
 
 
