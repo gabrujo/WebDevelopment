@@ -170,3 +170,8 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2E
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\StDb2EFRP.csproj.CoreCompileInputs.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\StDb2EFRP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\Razor\Pages\Stu\Create.cshtml.g.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\Razor\Pages\Stu\Delete.cshtml.g.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\Razor\Pages\Stu\Details.cshtml.g.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\Razor\Pages\Stu\Edit.cshtml.g.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\Razor\Pages\Stu\Index.cshtml.g.cs
