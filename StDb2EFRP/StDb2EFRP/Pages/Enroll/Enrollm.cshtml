@@ -1,0 +1,54 @@
+﻿@page
+@model StDb2EFRP.Pages.Enroll.EnrollmModel
+
+@{
+    ViewData["Title"] = "Enrollm";
+}
+
+<h1>Enrollm</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollment[0].SectionNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollment[0].Cnum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollment[0].CourseNumNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enrollment[0].Student)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Enrollment) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SectionNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cnum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseNumNavigation.CourseNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.StudentId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
