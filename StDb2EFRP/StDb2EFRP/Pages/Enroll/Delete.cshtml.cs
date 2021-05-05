@@ -21,17 +21,16 @@ namespace StDb2EFRP.Pages.Enroll
         [BindProperty]
         public Enrollment Enrollment { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(string id)
+        public async Task<IActionResult> OnGetAsync(int id, string cnum)
         {
-            if (id == null)
+            if (cnum == null)
             {
                 return NotFound();
             }
-
             Enrollment = await _context.Enrollments
-                .Include(e => e.CourseNumNavigation)
-                .Include(e => e.Student).FirstOrDefaultAsync(m => m.CourseNum == id);
-
+            .Include(e => e.CourseNumNavigation)
+            .Include(e => e.Student).FirstOrDefaultAsync(m => m.CourseNum == cnum
+           && m.StudentId == id);
             if (Enrollment == null)
             {
                 return NotFound();
@@ -41,6 +40,13 @@ namespace StDb2EFRP.Pages.Enroll
 
         public async Task<IActionResult> OnPostAsync(string id)
         {
+            // obtain StudentId and CourseNum from the Enrollment field which is
+            // bound to the form via hidden fields
+            int studentId = Enrollment.StudentId; // maps to the hidden field in
+            //the delete form
+ string courseNum = Enrollment.CourseNum;// maps to the hidden field in
+           // the delete form
+
             if (id == null)
             {
                 return NotFound();
