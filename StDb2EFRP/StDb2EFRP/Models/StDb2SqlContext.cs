@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -26,15 +28,17 @@ namespace StDb2EFRP
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<VwCoursestaken> VwCoursestakens { get; set; }
         public virtual DbSet<VwGrade> VwGrades { get; set; }
+        public object CoursesOffered { get; internal set; }
+        public object Enrollment { get; internal set; }
 
-      /*  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("server=DESKTOP-4US0OAN\\SQLEXPRESS;Trusted_Connection=True;MultipleActiveResultSets=true;database=StDb2Sql;");
-            }
-        } */
+        /*  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+          {
+              if (!optionsBuilder.IsConfigured)
+              {
+  #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                  optionsBuilder.UseSqlServer("server=DESKTOP-4US0OAN\\SQLEXPRESS;Trusted_Connection=True;MultipleActiveResultSets=true;database=StDb2Sql;");
+              }
+          } */
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -197,6 +201,11 @@ namespace StDb2EFRP
             });
 
             OnModelCreatingPartial(modelBuilder);
+        }
+
+        internal Task<IList<CoursesOffered>> ToListAsync()
+        {
+            throw new NotImplementedException();
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

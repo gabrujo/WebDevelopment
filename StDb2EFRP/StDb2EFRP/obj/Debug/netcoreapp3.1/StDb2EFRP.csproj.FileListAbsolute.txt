@@ -180,3 +180,4 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2E
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\Razor\Pages\Crs\Details.cshtml.g.cs
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\Razor\Pages\Crs\Edit.cshtml.g.cs
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\Razor\Pages\Crs\Index.cshtml.g.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\StDb2EFRP\StDb2EFRP\obj\Debug\netcoreapp3.1\Razor\Pages\Enroll\Enrollm.cshtml.g.cs
