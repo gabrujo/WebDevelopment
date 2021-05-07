@@ -49,10 +49,10 @@ namespace PersonServiceDockerClient
            MediaTypeWithQualityHeaderValue("application/json");
             client.DefaultRequestHeaders.Accept.Add(contentType);
             User userModel = new User();
-            //userModel.Username = "apiuser";
-            //userModel.Password = "apiuser100";
-            userModel.Username = "admin";
-            userModel.Password = "admin100";
+            userModel.Username = "apiuser";
+            userModel.Password = "apiuser100";
+            //userModel.Username = "admin";
+            //userModel.Password = "admin100";
             string stringData = JsonConvert.SerializeObject(userModel);
             var contentData = new StringContent(stringData,
            System.Text.Encoding.UTF8, "application/json");
