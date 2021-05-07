@@ -66,9 +66,6 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\Ra
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.csprojAssemblyReference.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.AssemblyInfoInputs.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.AssemblyInfo.cs
-C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.csproj.CoreCompileInputs.cache
-C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.RazorAssemblyInfo.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.RazorAssemblyInfo.cs
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.TagHelpers.input.cache
@@ -92,3 +89,6 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\Ra
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.pdb
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.genruntimeconfig.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.csproj.CoreCompileInputs.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\RazorIdentity\RazorIdentity\obj\Debug\netcoreapp3.1\RazorIdentity.MvcApplicationPartsAssemblyInfo.cache
