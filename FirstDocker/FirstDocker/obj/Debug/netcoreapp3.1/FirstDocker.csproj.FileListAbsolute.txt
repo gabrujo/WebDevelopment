@@ -1,0 +1,9 @@
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\FirstDocker\FirstDocker\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\FirstDocker\FirstDocker\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\FirstDocker\FirstDocker\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\FirstDocker\FirstDocker\obj\Debug\netcoreapp3.1\FirstDocker.csprojAssemblyReference.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\FirstDocker\FirstDocker\obj\Debug\netcoreapp3.1\FirstDocker.AssemblyInfoInputs.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\FirstDocker\FirstDocker\obj\Debug\netcoreapp3.1\FirstDocker.AssemblyInfo.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\FirstDocker\FirstDocker\obj\Debug\netcoreapp3.1\FirstDocker.RazorTargetAssemblyInfo.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\FirstDocker\FirstDocker\obj\Debug\netcoreapp3.1\staticwebassets\FirstDocker.StaticWebAssets.Manifest.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\FirstDocker\FirstDocker\obj\Debug\netcoreapp3.1\staticwebassets\FirstDocker.StaticWebAssets.xml
