@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "a6AyzKD1HW76EAeECteO+LldZiHWMZahGipqxdr5O4vGTTSetiamAWxtSgCQjKLXz1ReZZm4JJoxlbdH2t0Diw==",
+  "dgSpecHash": "yuA8C5XG2F4jMHT0lczqpXbVzoG7nnd5bBwhRnuufx3y9DljF+9XA/Ni8eqdu3SaXtEGoGsN3v6gDxhJIMRjEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabru\\OneDrive\\Área de Trabalho\\Coding\\WebDevelopment\\PersonServiceDocker\\PersonServiceDocker\\PersonServiceDocker.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gabru\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "C:\\Users\\gabru\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\gabru\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
