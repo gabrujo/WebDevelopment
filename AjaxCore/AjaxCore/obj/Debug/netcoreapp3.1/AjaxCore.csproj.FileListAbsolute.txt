@@ -1,0 +1,8 @@
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\AjaxCore.csprojAssemblyReference.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\AjaxCore.AssemblyInfoInputs.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\AjaxCore.AssemblyInfo.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\AjaxCore.csproj.CoreCompileInputs.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\AjaxCore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\AjaxCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\AjaxCore.RazorAssemblyInfo.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\AjaxCore.RazorAssemblyInfo.cs
