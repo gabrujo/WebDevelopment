@@ -95,3 +95,4 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCor
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\AjaxCore.genruntimeconfig.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\Razor\Pages\CourseEnrollment.cshtml.g.cs
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\Razor\Pages\_CourseEnrollmentPartial.cshtml.g.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\AjaxCore\AjaxCore\obj\Debug\netcoreapp3.1\Razor\Pages\SemesterCourseEnrollment.cshtml.g.cs
