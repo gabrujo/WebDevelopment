@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NWiHZIx7dA27ymphnu0Ag7/QlPClgyAfrxW08iBD9Aj/l9bSynNB/WOM7YMLgMfNaXKX6LOSv5KkXa6JUjXt2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabru\\OneDrive\\Área de Trabalho\\Coding\\WebDevelopment\\FirstDocker\\FirstDocker\\FirstDocker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabru\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
