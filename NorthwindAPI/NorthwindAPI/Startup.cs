@@ -12,6 +12,7 @@ using NorthwindAPI.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NorthwindAPI.Utils;
 
 namespace NorthwindAPI
 {
@@ -33,7 +34,10 @@ namespace NorthwindAPI
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
+            services.AddControllers(); // to support api
+            ConnectionStringHelper.CONNSTR = Configuration.GetConnectionString("NWCONN");
         }
+    
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -61,6 +65,7 @@ namespace NorthwindAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }
