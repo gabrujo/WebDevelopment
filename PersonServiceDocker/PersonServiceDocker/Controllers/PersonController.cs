@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PersonServiceDocker.Data;
@@ -9,6 +10,7 @@ using PersonServiceDocker.Models;
 
 namespace PersonServiceDocker.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PersonController : ControllerBase
@@ -28,9 +30,17 @@ namespace PersonServiceDocker.Controllers
         [HttpGet("all")]
         public List<Person> GetPersons()
         {
-            return PersonRepository.GetAll();
+            string nm = HttpContext.User.Identity.Name; // was stored as username in UserService
+            if (nm == "admin")
+                return PersonRepository.GetAll();
+            else
+            {
+                HttpContext.Response.StatusCode = 401; // unauthorized
+                return null;
+
+            }
         }
-        [HttpPost("person/save")]
+            [HttpPost("person/save")]
         public string AddPerson([FromBody] Person person)
         {
             return PersonRepository.Save(person);
