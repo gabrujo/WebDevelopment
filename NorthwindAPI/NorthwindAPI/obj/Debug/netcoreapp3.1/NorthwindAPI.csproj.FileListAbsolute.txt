@@ -95,3 +95,4 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\NorthwindAPI\Nor
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\NorthwindAPI\NorthwindAPI\obj\Debug\netcoreapp3.1\NorthwindAPI.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\NorthwindAPI\NorthwindAPI\obj\Debug\netcoreapp3.1\NorthwindAPI.pdb
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\NorthwindAPI\NorthwindAPI\obj\Debug\netcoreapp3.1\NorthwindAPI.genruntimeconfig.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\NorthwindAPI\NorthwindAPI\obj\Debug\netcoreapp3.1\Razor\ShowProductsViaAPI.cshtml.g.cs
