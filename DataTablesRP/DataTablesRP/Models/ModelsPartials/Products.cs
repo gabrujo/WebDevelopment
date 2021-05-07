@@ -11,6 +11,10 @@ namespace DataTablesRP.Models
     [ModelMetadataType(typeof(ProductsMetadata))]
     public partial class Products
     {
+        public object ProductId { get; internal set; }
+        public object ProductName { get; internal set; }
+        public object UnitPrice { get; internal set; }
+        public object UnitsInStock { get; internal set; }
     }
     public class ProductsMetadata
     {
