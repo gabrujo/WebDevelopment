@@ -106,10 +106,9 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\Dat
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\obj\Debug\netcoreapp3.1\DataTablesRP.csproj.CoreCompileInputs.cache
-C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\obj\Debug\netcoreapp3.1\DataTablesRP.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\obj\Debug\netcoreapp3.1\DataTablesRP.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\obj\Debug\netcoreapp3.1\DataTablesRP.Views.pdb
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\obj\Debug\netcoreapp3.1\DataTablesRP.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\obj\Debug\netcoreapp3.1\DataTablesRP.pdb
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\obj\Debug\netcoreapp3.1\DataTablesRP.genruntimeconfig.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\DataTablesRP\DataTablesRP\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
