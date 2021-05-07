@@ -1,0 +1,9 @@
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\PersonServiceDocker.csprojAssemblyReference.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\PersonServiceDocker.AssemblyInfoInputs.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\PersonServiceDocker.AssemblyInfo.cs
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\PersonServiceDocker.RazorTargetAssemblyInfo.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\staticwebassets\PersonServiceDocker.StaticWebAssets.Manifest.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\staticwebassets\PersonServiceDocker.StaticWebAssets.xml

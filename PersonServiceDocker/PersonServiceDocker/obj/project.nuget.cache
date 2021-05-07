@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "a6AyzKD1HW76EAeECteO+LldZiHWMZahGipqxdr5O4vGTTSetiamAWxtSgCQjKLXz1ReZZm4JJoxlbdH2t0Diw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabru\\OneDrive\\Área de Trabalho\\Coding\\WebDevelopment\\PersonServiceDocker\\PersonServiceDocker\\PersonServiceDocker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabru\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
