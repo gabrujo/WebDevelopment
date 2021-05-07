@@ -19,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Admin\" />
+    <Folder Include="Models\AppRoles\" />
+    <Folder Include="Pages\Admin\AppRoles\" />
     <Folder Include="Pages\Prod\" />
   </ItemGroup>
 
