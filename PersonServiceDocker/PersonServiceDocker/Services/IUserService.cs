@@ -48,8 +48,8 @@ Username = "admin", Password = "admin100" },
  new Claim(ClaimTypes.Name, user.Username.ToString())
             }),
                 Expires = DateTime.UtcNow.AddMinutes(2), // for subscribers of API, it could be longer duration
-            // Sha256 with HMAC, secret as the key for Sha256
- SigningCredentials = new SigningCredentials(new
+                                                         // Sha256 with HMAC, secret as the key for Sha256
+                SigningCredentials = new SigningCredentials(new
            SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
@@ -66,4 +66,5 @@ Username = "admin", Password = "admin100" },
                 return x;
             });
         }
+    }
 

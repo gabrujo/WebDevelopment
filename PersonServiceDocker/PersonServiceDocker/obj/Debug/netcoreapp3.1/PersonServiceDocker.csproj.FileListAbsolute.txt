@@ -16,3 +16,5 @@ C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDoc
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\PersonServiceDocker.dll
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\PersonServiceDocker.pdb
 C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\PersonServiceDocker.genruntimeconfig.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\PersonServiceDocker.csproj.CoreCompileInputs.cache
+C:\Users\gabru\OneDrive\Área de Trabalho\Coding\WebDevelopment\PersonServiceDocker\PersonServiceDocker\obj\Debug\netcoreapp3.1\PersonServiceDocker.MvcApplicationPartsAssemblyInfo.cache
